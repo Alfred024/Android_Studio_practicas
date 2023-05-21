@@ -1,0 +1,31 @@
+<resources>
+    /*Main*/
+    <string name="label_Main">Escoge la práctica que deseas ver</string>
+    <string name="btnP3">Button</string>
+    <string name="btnP4">Radio button</string>
+    <string name="btnP5">Control Checkbox</string>
+    <string name="btnP6">Control Spinner</string>
+    <string name="btnP7">Control ListView</string>
+    <string name="btnP8">Control ImgaeButton</string>
+
+    /*Button*/
+    <string name="app_name">My Application</string>
+    <string name="label1">Ingrese el valor 1</string>
+    <string name="label2">Ingrese el valor 2</string>
+    <string name="resultadoLabel">El resulatdo aparecerá aquí</string>
+
+    /*Radio group*/
+    <string name="label1_p2">Ingrese el valor 1</string>
+    <string name="label2_p2">Ingrese el valor 2</string>
+    <string name="resultadoLabel_p2">El resulatdo aparecerá aquí</string>
+    <string name="radioBtn1">Suma</string>
+    <string name="radioBtn2">Resta</string>
+
+    /*CheckBox*/
+    <string name="textView1_p3">Ingresa el valor 1</string>
+    <string name="textView2_p3">Ingresa el valor 2</string>
+    <string name="textViewRes_p3">Aquí aparecerán los resultados</string>
+    <string name="checkBox_btn1_p3">Sumar</string>
+    <string name="checkBox_btn2_p3">Restar</string>
+
+</resources>
