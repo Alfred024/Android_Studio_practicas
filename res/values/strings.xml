@@ -31,4 +31,6 @@
     /*Spinner*/
     <string name="textView1_p4">Ingresa el valor 1</string>
     <string name="textView2_p4">Ingresa el valor 2</string>
+    <string name="textViewRes_p4">Aquí aparecerán los resultados</string>
+    <string name="spinner_p4">Selecciona una operación</string>
 </resources>
