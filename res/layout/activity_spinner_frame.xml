@@ -6,4 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".Spinner_Frame">
 
+    <EditText
+        android:id="@+id/textView1_p4"
+        android:layout_width="238dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="@string/textView1_p4"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textView2_p4"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/textView2_p4"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1_p4" />
+
+    <TextView
+        android:id="@+id/textViewRes_p4"
+        android:layout_width="175dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/textViewRes_p4"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_p4" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="387dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_p4" />
+
+    <Button
+        android:id="@+id/btn_p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
 </androidx.constraintlayout.widget.ConstraintLayout>
