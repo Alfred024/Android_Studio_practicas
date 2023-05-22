@@ -28,4 +28,7 @@
     <string name="checkBox_btn1_p3">Sumar</string>
     <string name="checkBox_btn2_p3">Restar</string>
 
+    /*Spinner*/
+    <string name="textView1_p4">Ingresa el valor 1</string>
+    <string name="textView2_p4">Ingresa el valor 2</string>
 </resources>
