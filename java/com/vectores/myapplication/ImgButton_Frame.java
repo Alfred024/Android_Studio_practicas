@@ -3,6 +3,7 @@ package com.vectores.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 public class ImgButton_Frame extends AppCompatActivity {
@@ -13,11 +14,11 @@ public class ImgButton_Frame extends AppCompatActivity {
         setContentView(R.layout.activity_img_button_frame);
     }
 
-    public void imgBtn_info(){
+    public void imgBtn_info(View view){
         Toast.makeText(this, "Práctica con img buttons para la materia de TAP", Toast.LENGTH_SHORT).show();
     }
 
-    public void imgBtn_close(){
+    public void imgBtn_close(View view){
         Toast.makeText(this, "Modal cerrado", Toast.LENGTH_SHORT).show();
     }
 }

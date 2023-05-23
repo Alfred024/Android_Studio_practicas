@@ -13,6 +13,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
         android:contentDescription="@string/imgButton_close"
+        android:onClick="imgBtn_close"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_delete" />
@@ -24,6 +25,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
         android:contentDescription="@string/imgButton_info"
+        android:onClick="imgBtn_info"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_dialog_info" />
