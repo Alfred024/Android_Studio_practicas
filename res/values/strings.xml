@@ -44,4 +44,8 @@
     /*Toast Notification*/
     <string name="textView_p7">¿Cuál es el númeor que se generó?</string>
 
+    /*Text view con usuario y contraseña*/
+    <string name="textView_usuario">Ingresa el nombre del usuario</string>
+    <string name="textView_password">*********</string>
+
 </resources>
