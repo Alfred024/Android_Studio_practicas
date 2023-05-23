@@ -37,9 +37,16 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, RadioGroup.class);
         startActivity(i);
     }
-
     public void activityCheckBox(View view){
         Intent i = new Intent(this, Checkbox.class);
+        startActivity(i);
+    }
+    public void activitySpinner(View view){
+        Intent i = new Intent(this, Spinner_Frame.class);
+        startActivity(i);
+    }
+    public void activitySListView(){
+        Intent i = new Intent(this, ListView_Frame.class);
         startActivity(i);
     }
 

@@ -34,4 +34,8 @@
     <string name="textViewRes_p4">Aquí aparecerán los resultados</string>
     <string name="spinner_p4">Selecciona una operación</string>
 
+    /*List View*/
+    <string name="textView_p5">Selecciona un nombre</string>
+
+
 </resources>
