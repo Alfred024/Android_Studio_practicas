@@ -37,5 +37,7 @@
     /*List View*/
     <string name="textView_p5">Selecciona un nombre</string>
 
-
+    /*Image Button*/
+    <string name="imgButton_info">Info de la activity</string>
+    <string name="imgButton_close">Cerrar algo</string>
 </resources>

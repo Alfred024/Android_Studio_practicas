@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".ImgButton_Frame">
 
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgButton_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/imgButton_info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
 </androidx.constraintlayout.widget.ConstraintLayout>
