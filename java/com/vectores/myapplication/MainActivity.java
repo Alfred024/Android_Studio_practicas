@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void activityButton(View view){
-        Intent i = new Intent(this, Button.class);
+        Intent i = new Intent(this, ButtonListener.class);
         startActivity(i);
     }
 

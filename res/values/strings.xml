@@ -48,4 +48,9 @@
     <string name="textView_usuario">Ingresa el nombre del usuario</string>
     <string name="textView_password">*********</string>
 
+    /*Problema de cambio Activity*/
+    <string name="textView_usuario_P">Ingrese la clave</string>
+    /*Problema de cambio Activity2*/
+    <string name="textView_usuario_P2">Bienvenid@</string>
+
 </resources>
