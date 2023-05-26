@@ -30,32 +30,43 @@ public class MainActivity extends AppCompatActivity {
                 "ListView",
                 "Image Button",
                 "Toast notification",
-                "Control EditText"
+                "Control EditText",
+                "WebView"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, sp_items);
         sp.setAdapter(adapter);
     }
 
-    public void activityButton(View view){
-        Intent i = new Intent(this, ButtonListener.class);
-        startActivity(i);
-    }
-
-    public void activityRadioGroup(View view){
-        Intent i = new Intent(this, RadioGroup.class);
-        startActivity(i);
-    }
-    public void activityCheckBox(View view){
-        Intent i = new Intent(this, Checkbox.class);
-        startActivity(i);
-    }
-    public void activitySpinner(View view){
-        Intent i = new Intent(this, Spinner_Frame.class);
-        startActivity(i);
-    }
-    public void activitySListView(){
-        Intent i = new Intent(this, ListView_Frame.class);
-        startActivity(i);
+    public void cambiarDpractica(View view){
+        String practicaSelecionada = sp.getSelectedItem().toString();
+        Intent i = null;
+        if(practicaSelecionada.equals("Click de un botón")){
+            i = new Intent(this, ButtonListener.class);
+        }
+        if(practicaSelecionada.equals("Radio Group y Radio Button")){
+            i = new Intent(this, ButtonListener.class);
+        }
+        if(practicaSelecionada.equals("CheckBox")){
+            i = new Intent(this, ButtonListener.class);
+        }
+        if(practicaSelecionada.equals("Spinner")){
+            i = new Intent(this, ButtonListener.class);
+        }
+        if(practicaSelecionada.equals("ListView")){
+            i = new Intent(this, ButtonListener.class);
+        }
+        if(practicaSelecionada.equals("Image Button")){
+            i = new Intent(this, ButtonListener.class);
+        }
+        if(practicaSelecionada.equals("Toast notification")){
+            i = new Intent(this, ButtonListener.class);
+        }
+        if(practicaSelecionada.equals("Control EditText")){
+            i = new Intent(this, ButtonListener.class);
+        }
+        if(practicaSelecionada.equals("WebView")){
+            i = new Intent(this, ButtonListener.class);
+        }startActivity(i);
     }
 
 }
