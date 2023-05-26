@@ -40,9 +40,6 @@
             android:name=".Spinner_Frame"
             android:exported="false" />
         <activity
-            android:name=".SpinnerFrame2"
-            android:exported="false" />
-        <activity
             android:name=".Checkbox"
             android:exported="false" />
         <activity
