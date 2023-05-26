@@ -53,4 +53,7 @@
     /*Problema de cambio Activity2*/
     <string name="textView_usuario_P2">Bienvenid@</string>
 
+    /*Parámetros entre activities*/
+    <string name="textView_parametros">Ingrese un sitio web</string>
+
 </resources>
