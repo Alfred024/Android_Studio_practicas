@@ -3,7 +3,7 @@
     <string name="label_Main">Escoge la práctica que deseas ver</string>
 
     /*Button*/
-    <string name="app_name">My Application</string>
+    <string name="app_name">Prácticas en Android Studio (TAP)</string>
     <string name="label1">Ingrese el valor 1</string>
     <string name="label2">Ingrese el valor 2</string>
     <string name="resultadoLabel">El resulatdo aparecerá aquí</string>
@@ -50,4 +50,5 @@
     /*Parámetros entre activities*/
     <string name="textView_parametros">Ingrese un sitio web</string>
 
+    
 </resources>

@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
     public void cambiarDpractica(View view){
         String practicaSelecionada = sp.getSelectedItem().toString();
         Intent i = null;
+
+        /*NO SE DESPLIEGA*/
         if(practicaSelecionada == "Click de un botón"){
             i = new Intent(this, ButtonListener.class);
         }
@@ -62,8 +64,14 @@ public class MainActivity extends AppCompatActivity {
             i = new Intent(this, Notification_Toast.class);
         }
         if(practicaSelecionada == "Control EditText"){
+            i = new Intent(this, Edit_Text_control.class);
+        }
+
+        /*NO SE DESPLIEGA*/
+        if(practicaSelecionada == "Problema ingresar usuario y clave"){
             i = new Intent(this, Problema_cambio_activity.class);
         }
+        /*NO SE DESPLIEGA*/
         if(practicaSelecionada == "WebView"){
             i = new Intent(this, Parametros_webView.class);
         }startActivity(i);
