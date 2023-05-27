@@ -43,40 +43,39 @@ public class MainActivity extends AppCompatActivity {
         Intent i = null;
 
         /*NO SE DESPLIEGA*/
-        if(practicaSelecionada == "Click de un botón"){
+        if(practicaSelecionada.equals("Click de un botón")){
             i = new Intent(this, ButtonListener.class);
         }
-        if(practicaSelecionada == "Radio Group y Radio Button"){
+        if(practicaSelecionada.equals("Radio Group y Radio Button")){
             i = new Intent(this, RadioGroup.class);
         }
-        if(practicaSelecionada == "CheckBox"){
+        if(practicaSelecionada.equals("CheckBox")){
             i = new Intent(this, Checkbox.class);
         }
-        if(practicaSelecionada == "Spinner"){
+        if(practicaSelecionada.equals("Spinner")){
             i = new Intent(this, Spinner_Frame.class);
         }
-        if(practicaSelecionada == "ListView"){
+        if(practicaSelecionada.equals("ListView")){
             i = new Intent(this, ListView_Frame.class);
         }
-        if(practicaSelecionada == "Image Button"){
+        if(practicaSelecionada.equals("Image Button")){
             i = new Intent(this, ImgButton_Frame.class);
         }
-        if(practicaSelecionada == "Toast notification"){
+        if(practicaSelecionada.equals("Toast notification")){
             i = new Intent(this, Notification_Toast.class);
         }
-        if(practicaSelecionada == "Control EditText"){
+        if(practicaSelecionada.equals("Control EditText")){
             i = new Intent(this, Edit_Text_control.class);
         }
-
         /*NO SE DESPLIEGA*/
-        if(practicaSelecionada == "Problema ingresar usuario y clave"){
+        if(practicaSelecionada.equals("Problema ingresar usuario y clave")){
             i = new Intent(this, Problema_cambio_activity.class);
         }
         /*NO SE DESPLIEGA*/
-        if(practicaSelecionada == "WebView"){
+        if(practicaSelecionada.equals("WebView")){
             i = new Intent(this, Parametros_webView.class);
         }
-        if(practicaSelecionada == "Shared Preferences"){
+        if(practicaSelecionada.equals("Shared Preferences")){
             i = new Intent(this, SharedPreferences_email.class);
         }
 
