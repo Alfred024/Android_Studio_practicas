@@ -58,4 +58,9 @@
     <string name="textView_name_SP">Nombre del contacto</string>
     <string name="textView_multiline">Datos del contacto</string>
 
+    /*Número Random al azar*/
+    <string name="textView_juego_SP">JUEGO DEL NÚMERO ALEATORIO</string>
+    <string name="textView_msg_SP">Trata de adivinar el número alaetorio entre el 1 y 50</string>
+    <string name="textView_puntaje">Puntaje: </string>
+    <string name="textView_puntajeVar"></string>
 </resources>
