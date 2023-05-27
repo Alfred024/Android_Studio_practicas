@@ -50,5 +50,6 @@
     /*Parámetros entre activities*/
     <string name="textView_parametros">Ingrese un sitio web</string>
 
-    
+    /*Shared Preferences email*/
+    <string name="textView_SP_email">Ingresa tu email</string>
 </resources>

@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 "Image Button",
                 "Toast notification",
                 "Control EditText",
-                "WebView"
+                "WebView",
+                "Shared Preferences"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, sp_items);
         sp.setAdapter(adapter);
@@ -74,7 +75,12 @@ public class MainActivity extends AppCompatActivity {
         /*NO SE DESPLIEGA*/
         if(practicaSelecionada == "WebView"){
             i = new Intent(this, Parametros_webView.class);
-        }startActivity(i);
+        }
+        if(practicaSelecionada == "Shared Preferences"){
+            i = new Intent(this, SharedPreferences_email.class);
+        }
+
+        startActivity(i);
     }
 
 }
