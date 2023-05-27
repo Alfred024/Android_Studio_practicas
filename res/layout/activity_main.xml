@@ -18,12 +18,31 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinnerMain"
         android:layout_width="345dp"
         android:layout_height="67dp"
         android:layout_marginTop="184dp"
+        android:padding="15px"
+        android:paddingStart="15px"
+        android:paddingLeft="15px"
+        android:paddingTop="15px"
+        android:paddingEnd="15px"
+        android:paddingRight="15px"
+        android:paddingBottom="15px"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:onClick="cambiarDpractica"
+        android:text="Cambiar de práctica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerMain" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

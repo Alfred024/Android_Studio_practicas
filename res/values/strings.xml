@@ -1,12 +1,6 @@
 <resources>
     /*Main*/
     <string name="label_Main">Escoge la práctica que deseas ver</string>
-    <string name="btnP3">Button</string>
-    <string name="btnP4">Radio button</string>
-    <string name="btnP5">Control Checkbox</string>
-    <string name="btnP6">Control Spinner</string>
-    <string name="btnP7">Control ListView</string>
-    <string name="btnP8">Control ImgaeButton</string>
 
     /*Button*/
     <string name="app_name">My Application</string>
