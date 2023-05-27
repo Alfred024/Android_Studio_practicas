@@ -31,8 +31,11 @@ public class MainActivity extends AppCompatActivity {
                 "Image Button",
                 "Toast notification",
                 "Control EditText",
+                "Problema ingresar usuario y clave",
                 "WebView",
-                "Shared Preferences"
+                "Shared Preferences",
+                "Lista de contactos",
+                "Número al azar"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, sp_items);
         sp.setAdapter(adapter);
@@ -77,6 +80,12 @@ public class MainActivity extends AppCompatActivity {
         }
         if(practicaSelecionada.equals("Shared Preferences")){
             i = new Intent(this, SharedPreferences_email.class);
+        }
+        if(practicaSelecionada.equals("Lista de contactos")){
+            i = new Intent(this, Agenda_contactos.class);
+        }
+        if(practicaSelecionada.equals("Número al azar")){
+            i = new Intent(this, Juego_RandomNum.class);
         }
 
         startActivity(i);

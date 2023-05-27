@@ -15,6 +15,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Juego_RandomNum"
+            android:exported="false" />
+        <activity
+            android:name=".Agenda_contactos"
+            android:exported="false" />
+        <activity
             android:name=".SharedPreferences_email"
             android:exported="false" />
         <activity
@@ -69,7 +75,7 @@
         </activity>
         <activity
             android:name=".ButtonListener"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

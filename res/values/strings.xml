@@ -52,4 +52,10 @@
 
     /*Shared Preferences email*/
     <string name="textView_SP_email">Ingresa tu email</string>
+    
+    /*Agenda de contactos*/
+    <string name="textView_title_SP">LISTA DE CONTACTOS</string>
+    <string name="textView_name_SP">Nombre del contacto</string>
+    <string name="textView_multiline">Datos del contacto</string>
+
 </resources>
