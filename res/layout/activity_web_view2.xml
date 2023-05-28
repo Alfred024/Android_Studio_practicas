@@ -4,28 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Parametros">
+    tools:context=".WebView2">
 
     <EditText
-        android:id="@+id/input_webPage"
+        android:id="@+id/input_URL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="312dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/textView_parametros"
+        android:text="@string/input_URL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_go2url"
+        android:id="@+id/btn_Go2URL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="132dp"
-        android:onClick="goToPage"
-        android:text="Go to page"
+        android:layout_marginTop="56dp"
+        android:onClick="go2URL"
+        android:text="Ir a la url"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_webPage" />
+        app:layout_constraintTop_toBottomOf="@+id/input_URL" />
 </androidx.constraintlayout.widget.ConstraintLayout>

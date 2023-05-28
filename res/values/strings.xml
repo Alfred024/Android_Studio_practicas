@@ -48,8 +48,8 @@
     /*Problema de cambio Activity2*/
     <string name="textView_usuario_P2">Bienvenid@</string>
 
-    /*Parámetros entre activities*/
-    <string name="textView_parametros">Ingrese un sitio web</string>
+    /*Web View*/
+    <string name="input_URL">Ingrese un sitio web</string>
 
     /*Shared Preferences email*/
     <string name="textView_SP_email">Ingresa tu email</string>

@@ -15,6 +15,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31" >
         <activity
+            android:name=".WebView2_visual"
+            android:exported="false" />
+        <activity
+            android:name=".WebView2"
+            android:exported="false" />
+        <activity
             android:name=".Button2"
             android:exported="false" />
         <activity
@@ -25,12 +31,6 @@
             android:exported="false" />
         <activity
             android:name=".SharedPreferences_email"
-            android:exported="false" />
-        <activity
-            android:name=".Parametros_webView"
-            android:exported="false" />
-        <activity
-            android:name=".Parametros"
             android:exported="false" />
         <activity
             android:name=".Problema_cambio_activity2"
