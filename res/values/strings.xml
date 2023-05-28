@@ -1,9 +1,10 @@
 <resources>
+    <string name="app_name">Prácticas en Android Studio (TAP)</string>
+
     /*Main*/
     <string name="label_Main">Escoge la práctica que deseas ver</string>
 
-    /*Button*/
-    <string name="app_name">Prácticas en Android Studio (TAP)</string>
+    /*Button2*/
     <string name="label1">Ingrese el valor 1</string>
     <string name="label2">Ingrese el valor 2</string>
     <string name="resultadoLabel">El resulatdo aparecerá aquí</string>
@@ -52,7 +53,7 @@
 
     /*Shared Preferences email*/
     <string name="textView_SP_email">Ingresa tu email</string>
-    
+
     /*Agenda de contactos*/
     <string name="textView_title_SP">LISTA DE CONTACTOS</string>
     <string name="textView_name_SP">Nombre del contacto</string>
